@@ -9,6 +9,7 @@ typedef struct Maillon
     struct Maillon *suivant;
 } Maillon;
 
+int liste_blocs_en_circulation(void);
 Maillon *liste_inserer(Maillon *tete, int valeur);
 int liste_longueur(const Maillon *tete);
 bool liste_contient(const Maillon *tete, int valeur);
